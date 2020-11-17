@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Results</title>
-    <link rel="stylesheet" href="../static/bootstrap.css">
-</head>
-<body>
-<div class="jumbotron">
-    <h2>welcome to Flask</h2>
-    <a href="/">Home</a>
-    <a href="/results">Results</a>
-</div>
-<table>
-    <tr>
-        <td>{{result}}</td>
-    </tr>
-</table>
-<p>view results</p>
-</body>
+    <head>
+        <title>RESULT</title>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+
+    <body align=center>
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4"><h1>You result is</h1></div>
+            <div class="col-md-4"></div>
+        </div>
+        <form class="form-horizontal">
+            <fieldset>
+                <div class="form-group">
+                    <label class="control-label col-xs-4"></label>
+                    <div class="col-xs-4" align="center">
+                        <input type="text" name="result" class="form-control" placeholder={{ entry }}>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </body>
 </html>
