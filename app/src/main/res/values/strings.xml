@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MyPledgesApp</string>
+    <string name="title_activity_our_location">Map</string>
+</resources>

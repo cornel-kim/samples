@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "483916360488",
+    "firebase_url": "https://mypledgesapp.firebaseio.com",
+    "project_id": "mypledgesapp",
+    "storage_bucket": "mypledgesapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:483916360488:android:ba2fb87e5b1203fa0f7e1d",
+        "android_client_info": {
+          "package_name": "com.modcom.mypledgesapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "483916360488-6f2pn5126s2q8tj4d268p125kneqkiq2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuPoJK8zaCfCtUj_nAYx2dFgcPstxddOg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "483916360488-6f2pn5126s2q8tj4d268p125kneqkiq2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
