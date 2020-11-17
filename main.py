@@ -4,9 +4,18 @@ app = Flask(__name__)
 app.config.from_object(__name__)
 
 
-@app.route('/')
+@app.route('/', methods=['POST', 'GET'])
 def welcome():
+    username = request.form.post("username")#capture username from the form
+    firstname = request.form.post("firstname")
+    email = request.form.post("email")
+    tel_number = request.form.post("tel_number")
     return render_template('index.html')
+
+
+@app.route('/calc')
+def calc():
+    return render_template('calc.html')
 
 
 @app.route('/result', methods=['POST'])
