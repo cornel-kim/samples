@@ -36,5 +36,9 @@ class MainActivity : AppCompatActivity() {
             val i = Intent(this, OurLocation::class.java)
             startActivity(i)
         }
+        btnViewPledge.setOnClickListener {
+            val i = Intent(this, Pledges::class.java)
+            startActivity(i)
+        }
     }
 }

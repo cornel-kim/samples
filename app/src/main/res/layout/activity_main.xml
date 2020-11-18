@@ -36,6 +36,11 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/btnViewPledge"
+        android:text="View Pledges"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:id="@+id/btnMaps"
         android:text="Find Us"/>
 
