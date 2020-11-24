@@ -38,6 +38,12 @@
         <li class="nav-item">
         <a class="nav-link" href="/contact">Contact Us</a>
       </li>
+         <li class="nav-item">
+        <a class="nav-link" href="/viewprofile">View Profile</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="/viewusers">View Users</a>
+      </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Register/login
@@ -60,18 +66,24 @@
 </nav>
 </section>
 <section class="container">
- <form style="margin-top: 20px;" action="/login" method="post">
-        <div class="form-group">
-            <input type="text" class="form-control" name="username" placeholder="please input your name">
-        </div>
-        <div class="form-group">
-            <input type="password" class="form-control" name="password" placeholder="input your password">
-        </div>
-        <div>
-            <input type="submit" class="btn btn-success" value="submit">
-            <input type="submit" class="btn btn-danger" value="cancel">
-        </div>
-   </form>
+   <table class="table-responsive-lg table table-dark table-striped">
+       <tr>
+           <td>username</td>
+            <td>Email</td>
+            <td>Gender</td>
+            <td>county</td>
+       </tr>
+        {% for result in result %}
+       <tr>
+
+           <td>{{result[0]}}</td>
+            <td>{{result[1]}}</td>
+            <td>{{result[2]}}</td>
+            <td>{{result[3]}}</td>
+
+       </tr>
+        {% endfor %}
+   </table>
 </section>
 
 </body>
