@@ -6,13 +6,14 @@
 <!--    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->
 <!--</head>-->
     <link rel="stylesheet" href="../static/css/bootstrap.css">
+     <link rel="stylesheet" href="../static/css/style.css">
 </head>
 <body>
 <header class="jumbotron">
     <div class="row">
     <div class="col-md-8">
-        <h3>MODCOM Institute of Technology</h3>
-        <h4>Student Management System </h4>
+        <h4>MODCOM Institute of Technology</h4>
+        <h5>Student Management System </h5>
     </div> 
         <div class="col-md-4">
             <img src="../static/images/modcom.png" class="img-fluid" alt="no image found">
@@ -20,7 +21,7 @@
         </div>
     </div>    
 </header>
-<section class="container">
+<section class="">
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
   <a class="navbar-brand" href="#">Navbar</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -56,9 +57,18 @@
   </div>
 </nav>
 </section>
-<section>
-    welcome to home page {{msg}}
+<section class="container">
+    <div class="row">
+        <img src="../static/images/school.jpg" class="img-fluid" alt="add image">
+        <div>
+            <p>lorem</p>
+        </div>
+    </div>
+
 </section>
+<footer>
+{% extends 'footer.html'%}
+</footer>
 
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
