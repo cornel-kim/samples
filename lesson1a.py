@@ -1,0 +1,14 @@
+num1 = int(input("Input your value1:"))#Int
+num2 = int(input("Input you value2:"))
+Total_value = num1 + num2#addition
+diff_value = num1 - num2#subtration
+multiplication_value = num1 * num2#multiplication
+division_value = num1/num2#division
+modulus_value = num1%num2#modulus
+temperature = float(input("Input your Temperature:"))#Int
+myName = str(input("My name is:"))#String
+print("My name is ", myName, "i have a temperature of ", temperature, "and my total value of num1 + num2 =",Total_value)
+print("My name is ", myName, "i have a temperature of ", temperature, "and my difference value of num1 - num2 =", diff_value)
+print("My name is ", myName, "i have a temperature of ", temperature, "and my multiplication value of num1 * num2 =",multiplication_value)
+print("My name is ", myName, "i have a temperature of ", temperature, "and my division value of num1 / num2 =",division_value)
+print("My name is ", myName, "i have a temperature of ", temperature, "and my modulus value of num1 % num2 =",modulus_value)
