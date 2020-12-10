@@ -2,6 +2,8 @@
 #code reusability
 #code cleanliness
 #leads to object oriented programming
+from lesson2b import marksSystem
+
 
 def my_name():#function declaration
     print("My name is John")
@@ -30,3 +32,5 @@ def temperature():
 
 
 temperature()
+
+marksSystem()#function code re-use
