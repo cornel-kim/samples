@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#C3E9FA"
+    android:padding="20dp"
     tools:context=".MainActivity">
 
     <TextView
@@ -17,35 +18,43 @@
         android:gravity="center"
         android:textColor="#F11808"
         android:background="#EFF7F8"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
         android:text="Universities in Kenya"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="UON"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
         android:background="#2196F3"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Kenyatta University"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
         android:background="#AA7FE8"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#2CEE00"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
         android:text="Jomo Kenyatta University"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Dedan Kimathi University"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
         android:background="#EE0008"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#0034EE"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
         android:text="Multimedia University"/>
-
-
-
-
 
 </LinearLayout>
