@@ -17,3 +17,16 @@ print("My variable b store a string value of ", b)
 c = 10.3
 print(type(c))
 print("My variable c stores a float of value ", c)
+
+d = ("John", 1, 56, "Nairobi")
+print(type(d))
+print("My variable D stores information of type tuple", d)
+
+e = ["Peter", "Cow"]
+print(type(e))
+print("My variable e stores information of type list", e)
+
+
+f = {1:"Student", 2:"Teacher"}
+print(type(f))
+print("My variable f stores information of type dictionary", f)
