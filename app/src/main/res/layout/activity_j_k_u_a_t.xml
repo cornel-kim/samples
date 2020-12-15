@@ -32,10 +32,27 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <Button
-        android:id="@+id/btnWEB"
-        android:text="Visit "
+    android:id="@+id/btnWEB"
+    android:text="Visit our Website"
+    android:textSize="20sp"
+    android:background="#E600EE"
+    android:layout_marginTop="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnVisitYourContacts"
+        android:text="Check Your contact list"
         android:textSize="20sp"
-        android:background="#18EE00"
+        android:background="#673AB7"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnShare"
+        android:text="Share our Application"
+        android:textSize="20sp"
+        android:background="#EEB300"
         android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
