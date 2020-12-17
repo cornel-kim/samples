@@ -18,5 +18,10 @@ class JKUATActivity : AppCompatActivity() {
             val i = Intent(Intent.ACTION_VIEW, Uri.parse("geo:-1.1017058,37.0054426z=15"))
             startActivity(i)
         }
+        btnWEB.setOnClickListener {
+            val i = Intent(Intent.ACTION_VIEW, Uri.parse("http://www.jkuat.ac.ke/"))
+            startActivity(i)
+
+        }
     }
 }
