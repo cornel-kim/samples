@@ -16,4 +16,4 @@ for x in range(1, 10, 2):
 while_var = 1
 while while_var < 10:
     print("The while loop values :", while_var)
-    while_var = while_var + 2
+    while_var = while_var + 2#while_var += 1, while_var ++
