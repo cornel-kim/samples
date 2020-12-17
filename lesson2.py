@@ -24,5 +24,5 @@ print(type(tuple1))
 print(tuple1)#acces all items of the tuple
 print(tuple1[:])#access all items of the tuple
 print(tuple1[-1])#access the last items
-tuple1[2] = "Nakuru"
-print("get items of changed tuple", tuple1)
+# tuple1[2] = "Nakuru"
+# print("get items of changed tuple", tuple1) you cant change items of a tuple
