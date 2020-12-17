@@ -1,4 +1,6 @@
 #lists and tuples and dictionaries
+
+
 schools = ["Nairobi", "Chebisas", "Nakuru High", "Kenya"]
 print(schools)
 #access individual item in an array- implement loops
@@ -17,3 +19,6 @@ while_var = 1
 while while_var < 10:
     print("The while loop values :", while_var)
     while_var = while_var + 2#while_var += 1, while_var ++
+
+
+
