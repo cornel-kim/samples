@@ -23,5 +23,18 @@ class JKUATActivity : AppCompatActivity() {
             startActivity(i)
 
         }
+        btnVisitYourContacts.setOnClickListener {
+            val x = Intent(Intent.ACTION_VIEW, Uri.parse("content://contacts/people"))
+            startActivity(x)
+        }
+        btnShare.setOnClickListener {
+            val i = Intent().apply {
+                action = Intent.ACTION_SEND
+                putExtra(Intent.EXTRA_TEXT, "Find us on google play")
+                type="text/plain"
+            }
+            val shareIntent =  Intent.createChooser(i, null)
+            startActivity(shareIntent)
+        }
     }
 }
