@@ -16,6 +16,7 @@ print(student)
 student.update({"d.o.b": 2000})#update values
 print(student)
 
+
 student["admission"] = "modcom/1/2021"#adding a new item to a dictionary
 print(student)
 
