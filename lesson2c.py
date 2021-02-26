@@ -14,3 +14,4 @@ else:
     print("input valid mark")
 #Using the same concept, take student kcpe marks and award them respective schools.
 #i.e 400-500 marks(national schools), 300-400(extra county), 200-300(county), 0-200(local schools)
+
